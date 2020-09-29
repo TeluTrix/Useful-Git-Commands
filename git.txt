@@ -1,0 +1,57 @@
+========================================================
+=	 ██████╗ ██╗████████╗			       =
+=	██╔════╝ ██║╚══██╔══╝                          =
+=	██║  ███╗██║   ██║                             =
+=	██║   ██║██║   ██║                             =
+=	╚██████╔╝██║   ██║                             =
+=	 ╚═════╝ ╚═╝   ╚═╝   useful commands           =
+========================================================                     
+
+###
+git branch [branchname] = Neuen Branch erstellen
+###
+git checkout [branchname] = Ändert den Ort
+###
+git log --oneline = Zeigt die Veränderung/Geschichte des Projekts an
+###
+git fetch = Neuste Version des Projektes vom Server holen
+###
+git push = Hochladen eines repos auf den Server
+###
+git pull = Neuste Version des repos vom Server holen & und lokales repo aktualisieren
+###
+git merge = in einem repo branches zusammenführen
+###
+git rm [filename.txt] = Datei eintfernen
+###
+git branch -m [neuer Name] = Branch Lokal umbennen
+###
+git status = Status des repo abrufen
+###
+git add [filename.txt] = Hinzufügen einer Datei (Nur Lokal, noch nicht auf dem Server)
+###
+git commit -m "was hast du geändert?" = Neues, Commit/Version, anschliessend kommentar was man geändert hat.
+git commit -a = Alle zuletzt geänderten Files hinzufügen zum neuen Commit
+###
+git branch = Zeigen der Lokalen Branches
+###
+git add . = Alle Änderungen im repo speichern
+###
+git ls-tree HEAD = auflisten der Dateien in dem repository/Projekt
+###
+git log -3 = Zeigt die aktuellsten 3 Commits, 3 kann auch mehr oder weniger sein
+git log --since=2020-01-01 = Anzeigen des Logs/Geschichte/History von den commits seit dem 1. Januar 2020
+git log --until=2020-01-01 = Anzeigen des Logs/Geschichte/History von den commits bis zum 1. Januar 2020
+git log --after=2020-01-01 = Anzeigen des Logs/Geschichte/History von den commits nach dem 1. Januar 2020
+git log --before=2020-01-01 = Anzeigen des Logs/Geschichte/History von den commits vor dem 1. Januar 2020
+git log --author="Tom" = Anzeigen aller Commits vom Autor Tom
+git log [datei.html] = Anzeigen aller Commits in der die genannte Datei verändert wurde
+git log --grep="bug" = Anzeigen aller Commits bei denen Bug in der Beschreibung vorkommt
+git log [HASH] [HASH] = Anzeigen aller Commits zwischen 2 Dateien mit den genannten Hash Werten
+###
+git log -p = Anzeigen der Veränderungen und/oder Beschreibungen der Commits
+git log --stat = Anzeigen der Statistik zu den verschiedenen Commits
+###
+
+
+

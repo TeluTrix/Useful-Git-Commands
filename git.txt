@@ -52,6 +52,6 @@ git log [HASH] [HASH] = Anzeigen aller Commits zwischen 2 Dateien mit den genann
 git log -p = Anzeigen der Veränderungen und/oder Beschreibungen der Commits
 git log --stat = Anzeigen der Statistik zu den verschiedenen Commits
 ###
-
-
+git log --graph --all --oneline --decorate
+###
 

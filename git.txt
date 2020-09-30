@@ -65,8 +65,9 @@ cat .git/HEAD = Aufzeigen wo der Headpointer hinzeigt/pointed
 ###
 git checkout -b_shorten_title = checkout und hinzufügen von neuem Branch in einem Schritt
 ###
-git diff [branch name]..[another branch name] = den unterschied zwischen branch 1 und branch 2 anzeigen
-### 
+git diff [branch name]..[another branch name] = den unterschied zwischen branch 1 und branch 2 anzeigen kann auch file statt branches vergleichen.
+###
+ 
 
 
 

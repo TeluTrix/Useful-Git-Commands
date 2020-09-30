@@ -70,7 +70,9 @@ git diff [branch name]..[another branch name] = den unterschied zwischen branch 
 git diff --color-words [branch name]..[branch name]^ = ^ steht für ein commit zurückzugehen.
 git diff --color-words [branch name]..[branch name]^^ = ^^ steht für 2 commit zurückzugehen.
 ###
- 
+git branch --merged = show merged branches
+git branch --no-merged = shows not merged branches
+###
 
 
 

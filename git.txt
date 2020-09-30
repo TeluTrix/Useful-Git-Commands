@@ -10,7 +10,9 @@
 ###
 git branch [branchname] = Neuen Branch erstellen
 ###
-git checkout [branchname] = Ändert den Ort
+git checkout [branchname] = Ändert den Ort/Branch
+###
+git commit -am "bla bla bla" = alle änderungen übernehmen und auf den server hochladen
 ###
 git log --oneline = Zeigt die Veränderung/Geschichte des Projekts an
 ###
@@ -53,5 +55,42 @@ git log -p = Anzeigen der Veränderungen und/oder Beschreibungen der Commits
 git log --stat = Anzeigen der Statistik zu den verschiedenen Commits
 ###
 git log --graph --all --oneline --decorate
+git log -p
+git log --start
+git log --format=short
+git log --oneline
+git log --graph 
 ###
+cat .git/HEAD = Aufzeigen wo der Headpointer hinzeigt/pointed
+###
+git checkout -b_shorten_title = checkout und hinzufügen von neuem Branch in einem Schritt
+###
+git diff [branch name]..[another branch name] = den unterschied zwischen branch 1 und branch 2 anzeigen
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

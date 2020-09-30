@@ -67,6 +67,9 @@ git checkout -b_shorten_title = checkout und hinzufügen von neuem Branch in ein
 ###
 git diff [branch name]..[another branch name] = den unterschied zwischen branch 1 und branch 2 anzeigen kann auch file statt branches vergleichen.
 ###
+git diff --color-words [branch name]..[branch name]^ = ^ steht für ein commit zurückzugehen.
+git diff --color-words [branch name]..[branch name]^^ = ^^ steht für 2 commit zurückzugehen.
+###
  
 
 
